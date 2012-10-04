@@ -1,0 +1,98 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  Internal Error (classFileParser.cpp:3470), pid=2868, tid=4232
+#  Error: ShouldNotReachHere()
+#
+# JRE version: 7.0-b147
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (21.0-b17 mixed mode windows-amd64 compressed oops)
+# Failed to write core dump. Minidumps are not enabled by default on client versions of Windows
+#
+# If you would like to submit a bug report, please visit:
+#   http://bugreport.sun.com/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000001c6b800):  JavaThread "Unknown thread" [_thread_in_vm, id=4232, stack(0x00000000027d0000,0x00000000028d0000)]
+
+Stack: [0x00000000027d0000,0x00000000028d0000]
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+
+Other Threads:
+
+=>0x0000000001c6b800 (exited) JavaThread "Unknown thread" [_thread_in_vm, id=4232, stack(0x00000000027d0000,0x00000000028d0000)]
+
+VM state:not at safepoint (not fully initialized)
+
+VM Mutex/Monitor currently owned by a thread: None
+
+Dynamic libraries:
+0x000000013f980000 - 0x000000013f9b3000 	C:\Program Files\Java\jre7\bin\javaw.exe
+0x00000000774a0000 - 0x0000000077649000 	C:\Windows\SYSTEM32\ntdll.dll
+0x0000000076dc0000 - 0x0000000076edf000 	C:\Windows\system32\kernel32.dll
+0x000007fefd9f0000 - 0x000007fefda5c000 	C:\Windows\system32\KERNELBASE.dll
+0x000007fefe610000 - 0x000007fefe6eb000 	C:\Windows\system32\ADVAPI32.dll
+0x000007fefe820000 - 0x000007fefe8bf000 	C:\Windows\system32\msvcrt.dll
+0x000007fefdf40000 - 0x000007fefdf5f000 	C:\Windows\SYSTEM32\sechost.dll
+0x000007fefe6f0000 - 0x000007fefe81d000 	C:\Windows\system32\RPCRT4.dll
+0x0000000077240000 - 0x000000007733a000 	C:\Windows\system32\USER32.dll
+0x000007fefdf60000 - 0x000007fefdfc7000 	C:\Windows\system32\GDI32.dll
+0x000007feff750000 - 0x000007feff75e000 	C:\Windows\system32\LPK.dll
+0x000007fefe1b0000 - 0x000007fefe279000 	C:\Windows\system32\USP10.dll
+0x000007fefcad0000 - 0x000007fefccc4000 	C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac\COMCTL32.dll
+0x000007fefe8c0000 - 0x000007fefe931000 	C:\Windows\system32\SHLWAPI.dll
+0x000007fefe5b0000 - 0x000007fefe5de000 	C:\Windows\system32\IMM32.DLL
+0x000007fefe400000 - 0x000007fefe509000 	C:\Windows\system32\MSCTF.dll
+0x000007fefd8c0000 - 0x000007fefd8ff000 	C:\Windows\system32\nvinitx.dll
+0x000000000f000000 - 0x000000000f006000 	C:\Program Files\NVIDIA Corporation\CoProcManager\_etoured.dll
+0x000007fefa0c0000 - 0x000007fefa105000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll
+0x000007fefdfd0000 - 0x000007fefe1a7000 	C:\Windows\system32\SETUPAPI.dll
+0x000007fefd9b0000 - 0x000007fefd9e6000 	C:\Windows\system32\CFGMGR32.dll
+0x000007fefe320000 - 0x000007fefe3f7000 	C:\Windows\system32\OLEAUT32.dll
+0x000007fefdcd0000 - 0x000007fefded3000 	C:\Windows\system32\ole32.dll
+0x000007fefdcb0000 - 0x000007fefdcca000 	C:\Windows\system32\DEVOBJ.dll
+0x000007fefa070000 - 0x000007fefa0b2000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll
+0x0000000071560000 - 0x0000000071631000 	C:\Program Files\Java\jre7\bin\msvcr100.dll
+0x0000000070e90000 - 0x000000007155e000 	C:\Program Files\Java\jre7\bin\server\jvm.dll
+0x000007fef9500000 - 0x000007fef9509000 	C:\Windows\system32\WSOCK32.dll
+0x000007feff760000 - 0x000007feff7ad000 	C:\Windows\system32\WS2_32.dll
+0x000007fefe5e0000 - 0x000007fefe5e8000 	C:\Windows\system32\NSI.dll
+0x000007fefb6d0000 - 0x000007fefb70b000 	C:\Windows\system32\WINMM.dll
+0x0000000077660000 - 0x0000000077667000 	C:\Windows\system32\PSAPI.DLL
+0x0000000073820000 - 0x000000007382f000 	C:\Program Files\Java\jre7\bin\verify.dll
+0x00000000737f0000 - 0x0000000073818000 	C:\Program Files\Java\jre7\bin\java.dll
+0x00000000668b0000 - 0x00000000668e5000 	C:\Program Files\Java\jre7\bin\jdwp.dll
+0x0000000067ac0000 - 0x0000000067ac8000 	C:\Program Files\Java\jre7\bin\npt.dll
+0x00000000737d0000 - 0x00000000737e5000 	C:\Program Files\Java\jre7\bin\zip.dll
+
+VM Arguments:
+jvm_args: -agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:51512 -Dfile.encoding=Cp1252 -Xbootclasspath:C:\Program Files (x86)\Android\android-sdk\platforms\android-16\android.jar 
+java_command: com.example.misson.control.SocketManager
+Launcher Type: SUN_STANDARD
+
+Environment Variables:
+JAVA_HOME=C:\Program Files\Java\jdk1.0.7
+PATH=C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Windows\system32';C:\Windows\system32
+USERNAME=Kevin
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 42 Stepping 7, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 , 64 bit Build 7601 Service Pack 1
+
+CPU:total 8 (4 cores per cpu, 2 threads per core) family 6 model 42 stepping 7, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 8269040k(5403652k free), swap 16536228k(13112652k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (21.0-b17) for windows-amd64 JRE (1.7.0-b147), built on Jun 27 2011 02:19:45 by "java_re" with unknown MS VC++:1600
+
+time: Wed Aug 22 12:16:00 2012
+elapsed time: 0 seconds
+

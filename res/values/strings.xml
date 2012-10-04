@@ -1,0 +1,10 @@
+<resources>
+
+    <string name="app_name">Misson Control</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">Mission Control</string>
+    <string name="selectMissionPrompt">Select Mission</string>
+    <string name="title_activity_payload_monitor">MainActivity</string>
+
+</resources>
